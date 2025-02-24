@@ -9,16 +9,15 @@ MOD - Multipurpose Omnidirectional Drone platform
 
 The MOD platform is a path to a new, safer, multi-purpose solution for widespread use with predictable behavior and a steep learning curve.
 
-The analog of this platform's place among other drones is a tractor among other cars.
+MOD platform can be compared to other drones as a tractors can be compared to a cars.
 
-And the analog of the system of hardware and software additions for MOD is a three-point mounted implements among tractors.
+The MOD platform's hardware and software add-ons are like three-point mounted implements for tractors.
 
 This does not mean that MODs, like tractors, are used primarily in agriculture, but rather that MODs, like tractors, have a much wider range of applications.
 
 
-But you ask: "Why can't other drones be used as tractors?"
-
-First, let me explain what an omnicopter is...
+*But you ask: "Why can't other drones be used as tractors?"
+First, let me explain what an omnicopter is...*
 
 
 
@@ -34,9 +33,8 @@ A “partial omnicopter” is an omnicopter with limited omnidirectional capabil
 For example: it can move in any direction but not tilt, or it can change orientation in a limited range of angles or axes.
 
 
-But you ask, “Okay, I get it. But what is an omnicopter good for? Why can’t I use regular drones?”
-
-Of course you can use regular drones, but...
+*But you ask, “Okay, I get it. But what is an omnicopter good for? Why can’t I use regular drones?”
+Of course you can use regular drones, but...*
 
 
 
@@ -44,28 +42,27 @@ Of course you can use regular drones, but...
 
 Action and reaction
 
-| Action                                                     | Ordinary drone     | Omnicopter                                           |
-|------------------------------------------------------------|--------------------|------------------------------------------------------|
-| Operating in windy conditions                              | Can be unstable    | Still fly                                            |
-| Work in strong airflow gradients near obstacles            | Can fall           | Can change orientation but still fly                 |
-| Touch an obstacle while maintaining horizontal orientation | Actually still fly | Still fly                                            |
-| Hit an obstacle while tilted                               | Fall in most cases | Change orientation and still fly                     |
-| Get caught on an obstacle                                  | Fall               | Change orientation and still fly                     |
-| Damage one of the rotors                                   | Fall in most cases | Change orientation and still fly                     |
-| Carries a long additional load and loses balance           | Fall               | Change orientation and still fly                     |
-| Counteracts the forces caused by the load                  | Fall in most cases | Do not change orientation and position and still fly |
+| Action                                                     | Ordinary drone          | Omnicopter                                           |
+|------------------------------------------------------------|-------------------------|------------------------------------------------------|
+| Operating in windy conditions                              | Can be unstable         | Still fly                                            |
+| Work in strong airflow gradients near obstacles            | Can fall                | Can change orientation but still fly                 |
+| Touch an obstacle while maintaining horizontal orientation | Actually still fly      | Still fly                                            |
+| Hit an obstacle while tilted                               | Fall in most cases      | Change orientation and still fly                     |
+| Get caught on an obstacle                                  | Fall                    | Change orientation and still fly                     |
+| Damage one of the rotors                                   | Fall in most cases      | Change orientation and still fly                     |
+| Carries a long additional load and loses balance           | Fall                    | Change orientation and still fly                     |
+| Counteracts the forces caused by the load                  | Can be unstable or fall | Do not change orientation and position and still fly |
 
 As you can see, only omnicopters allow you to work within obstacles and carry long additional load.
 
 It's like a tractor that can work on rough terrain in all weather conditions, carrying large implements.
 
 
-Now back to the description of omnicopters.
-We can describe omnicopters in terms of specially configured n-rotor copters, but we can use other propulsion systems than propellers.
+*Now back to the description of omnicopters.
+We can describe omnicopters in terms of specially configured n-rotor copters, but we can use other propulsion systems than propellers.*
 
-So we need a more general description.
-
-I call it:
+*So we need a more general description.
+I call it:*
 
 
 
@@ -82,21 +79,21 @@ Each node type can be available in different sizes and with different thrust or 
 
 This is a list of TVN types:
 
-| Type                                                                                                                                                                                   | Thrust-vectoring shape        | Reorientation speed                      | Blade type           | Minimal frame type | Mechanical complexity | Thrust / weight | Estimated Dimensions | Usage proposal                |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------------------------------|----------------------|--------------------|-----------------------|-----------------|----------------------|-------------------------------|
-| Hex3                                                                                                                                                                                   | Hexagon/Hexagon in projection | Medium                                   | Fixed asymmetrical*  | Tri, Long-tri      | **Low**               | Low-medium      | XS-L                 | Multipurpose                  |
-| Square2                                                                                                                                                                                | Square in projection          | **Fast**                                 | Variable symmetrical | Long-tri, aux      | Medium                | Low-medium      | XS-XL                | Multipurpose, auxillary       |
-| DoubleJoint                                                                                                                                                                            | Spherical sector              | Slow                                     | Fixed asymmetrical*  | Tri, Duo?          | Medium+               | Low             | XS-XL                | Multipurpose                  |
-| Tilt360                                                                                                                                                                                | Flat disc                     | Slow                                     | Fixed asymmetrical*  | Tri, aux           | High                  | **High**        | XS-XXL               | Multipurpose, toys, auxillary |
-| [Cyclorotor](https://github.com/bpodchezertsev/awesome-tech-designs/blob/main/Propulsion.md#cyclorotor)                                                                                | Flat disc                     | **Fast**                                 | Special              | Tri                | High+                 | Medium          | XXS-L                | Multipurpose, auxillary       |
-| OmniFlapper                                                                                                                                                                            | Ellipsoid                     | Fast                                     | Special              | Special            | Ultra                 | Low             | XXS                  | Camera, indoor, toys          |
-| TrueOmni                                                                                                                                                                               | Sphere                        | Slow                                     | Fixed asymmetrical*  | Tri, Duo?, aux     | Ultra+                | Low             | XXS-S                | Camera, toys, auxillary       |
-| [ETH Avero Omnicopter](https://github.com/bpodchezertsev/awesome-tech-designs/blob/main/SUAV.Omnicopter.md#eth-avero-omnicopter) **(Incompatible TVN. For comparison purposes only.)** | Spherical sector              | Prototype is very slow but can be medium | Impeller + T-V Pipe  | Tri                | Medium                | Very low        | XS                   | Multipurpose, indoor, toys    |
+| Type                                                                                                                                                                                     | Thrust-vectoring shape        | Reorientation speed                      | Blade type           | Minimal frame type | Mechanical complexity | Thrust / weight | Estimated Dimensions | Usage proposal                |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------------------------------|----------------------|--------------------|-----------------------|-----------------|----------------------|-------------------------------|
+| Hex3                                                                                                                                                                                     | Hexagon/Hexagon in projection | Medium                                   | Fixed asymmetrical*  | Tri, Long-tri      | **Low**               | Low-medium      | XS-L                 | Multipurpose                  |
+| Square2                                                                                                                                                                                  | Square in projection          | **Fast**                                 | Variable symmetrical | Long-tri, aux      | Medium                | Low-medium      | XS-XL                | Multipurpose, auxillary       |
+| DoubleJoint                                                                                                                                                                              | Spherical sector              | Slow                                     | Fixed asymmetrical*  | Tri, Duo?          | Medium+               | Low             | XS-XL                | Multipurpose                  |
+| Tilt360                                                                                                                                                                                  | Flat disc                     | Slow                                     | Fixed asymmetrical*  | Tri, aux           | High                  | **High**        | XS-XXL               | Multipurpose, toys, auxillary |
+| [Cyclorotor](https://github.com/bpodchezertsev/awesome-tech-designs/blob/main/Propulsion.md#cyclorotor)                                                                                  | Flat disc                     | **Fast**                                 | Special              | Tri                | High+                 | Medium          | XXS-L                | Multipurpose, auxillary       |
+| OmniFlapper **_(Incompatible TVN. For comparison purposes only.)_**                                                                                                                      | Ellipsoid                     | Fast                                     | Special              | Special            | Ultra                 | Low             | XXS                  | Camera, indoor, toys          |
+| TrueOmni                                                                                                                                                                                 | Sphere                        | Slow                                     | Fixed asymmetrical*  | Tri, Duo?, aux     | Ultra+                | Low             | XXS-S                | Camera, toys, auxillary       |
+| [ETH Avero Omnicopter](https://github.com/bpodchezertsev/awesome-tech-designs/blob/main/SUAV.Omnicopter.md#eth-avero-omnicopter) **_(Incompatible TVN. For comparison purposes only.)_** | Spherical sector              | Prototype is very slow but can be medium | Impeller + T-V Pipe  | Tri                | Medium                | Very low        | XS                   | Multipurpose, indoor, toys    |
 
 Many of these TVNs are interchangeable for the same size frame, so in the future we will be able to upgrade not only to the same type of TVN, but also change its type.
 
 
-Now let's explain the omnicopter frame and the relationship between the frame and the thrust.
+*Now let's explain the omnicopter frame and the relationship between the frame and the thrust.*
 
 
 
@@ -112,13 +109,12 @@ But this may limit the installation of other add-ons, so it can be used in certa
 
 For various operations, the real symmetrical thrust shape is not needed, and part of the thrust can be limited by software to form a spherical thrust with the same gradient in all directions.
 
-See how the thrust limiters can change the controlled thrust. For simplicity, in this diagram, the actual thrust is also spherical. This diagram shows the central vertical section of the complete traction shape.
+See how thrust limiters can change the controlled thrust. For simplicity, in this diagram the actual thrust is also spherical. This diagram shows the central vertical section of the full thrust shape.
 
 ![basic-control-limiters]
 
-But the software constraints for an omnicopter can be much more complex, and this flexibility allows for different constraints and control methods to be modeled.
-
-So, let's move on to:
+*But the software constraints for an omnicopter can be much more complex, and this flexibility allows for different constraints and control methods to be modeled.
+So, let's move on to:*
 
 
 
@@ -152,10 +148,11 @@ Swashplates are not required, as you can see in the early version of the swashpl
 ![scheme-gyrodyne]
 
 
+*Now about the Tri-frame.*
+
+
 
 # Frame
-
-Now about the Tri-frame.
 
 The Tri-frame design is a triangular folding frame with free space inside.
 All add-ons can be mounted on both sides of the Tri-frame.
