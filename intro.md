@@ -165,6 +165,7 @@ All Tri-frame frames are foldable. Also, the Tri-frame is the simplest and light
 ![EarlyNativeSquare2PartialFolded]
 
 
+My LinkedIn contact: https://www.linkedin.com/in/boris-podchezertsev-0144a66/
 
 ---
 *MOD - Multipurpose Omnidirectional Drone platform - public files © 2025 by Boris Podchezertsev is licensed under CC BY-NC-ND 4.0 license
