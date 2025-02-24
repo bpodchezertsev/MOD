@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="basic-control-limiters.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="swatch2"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch2"
+       id="linearGradient2"
+       x1="170.61824"
+       y1="672.24908"
+       x2="425.52409"
+       y2="672.24908"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-3.0304576,-35.355339)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="608.36437"
+     inkscape:cy="330.06734"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-global="true"
+     showguides="false"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-page="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-center="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="0"
+       originy="0"
+       spacingy="1"
+       spacingx="1"
+       units="px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <ellipse
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3849-8"
+       inkscape:label="full-throttle"
+       cx="294.54071"
+       cy="716.6134"
+       rx="219.97147"
+       ry="219.97166" />
+    <path
+       style="fill:#ffff00;stroke:#000000;stroke-width:1.22968;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 294.54071,496.62625 c -93.26251,0 -172.96695,58.06993 -204.968751,140 C 121.57468,718.55444 201.27955,776.595 294.54071,776.595 c 93.26116,0 172.96603,-58.04056 204.96875,-139.96875 -32.0018,-81.93007 -111.70624,-140 -204.96875,-140 z"
+       id="path3849"
+       inkscape:connector-curvature="0"
+       inkscape:label="vertical-equal" />
+    <path
+       id="all-equal"
+       style="fill:#005e0d;stroke:url(#linearGradient2);stroke-width:1.01641"
+       inkscape:label="all-equal"
+       d="M 422.49363,636.89374 A 127.45293,138.31694 0 0 1 295.04071,775.21068 127.45293,138.31694 0 0 1 167.58778,636.89374 127.45293,138.31694 0 0 1 295.04071,498.5768 127.45293,138.31694 0 0 1 422.49363,636.89374 Z" />
+    <ellipse
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3847-0"
+       inkscape:label="hover-point"
+       cx="292.49359"
+       cy="637.73077"
+       rx="14.074806"
+       ry="15.084958" />
+    <ellipse
+       style="fill:#ff0f00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3847"
+       inkscape:label="zero-throttle"
+       cx="294.54071"
+       cy="716.6134"
+       rx="14.074806"
+       ry="15.084958" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.985332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 34.540709,716.61343 c 504.857661,0 504.857661,0 504.857661,0"
+       id="path3853"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.806315px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 294.47434,717.35561 243.1632,102.67052"
+       id="path3933"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="556.25903"
+       y="831.79333"
+       id="text3937"><tspan
+         sodipodi:role="line"
+         x="556.25903"
+         y="831.79333"
+         id="tspan3031"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">Free fall point</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.0133px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 294.00707,616.28907 555.27739,427.65356"
+       id="path3947"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="564.91711"
+       y="436.30167"
+       id="text3949"><tspan
+         sodipodi:role="line"
+         id="tspan3951"
+         x="564.91711"
+         y="436.30167"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">All equal limiter</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.722392px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 433.12076,586.96504 561.71955,496.06641"
+       id="path3953"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.923575px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 292.40425,638.35066 553.78154,565.24942"
+       id="path3953-9"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="570.18323"
+       y="499.15878"
+       id="text3955"><tspan
+         sodipodi:role="line"
+         id="tspan3957"
+         x="570.18323"
+         y="499.15878"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">Vertical equal limiter</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="34.714024"
+       y="371.96878"
+       id="text3959"><tspan
+         sodipodi:role="line"
+         id="tspan3961"
+         x="34.714024"
+         y="371.96878"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">Basic thrust control limiters</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.903416px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 294.4884,856.56481 238.59449,57.46781"
+       id="path3963"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="554.96423"
+       y="927.44775"
+       id="text3973"><tspan
+         sodipodi:role="line"
+         id="tspan3975"
+         x="554.96423"
+         y="927.44775"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">Unlimited control</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="547.77032"
+       y="698.04199"
+       id="text3977"><tspan
+         sodipodi:role="line"
+         id="tspan3979"
+         x="547.77032"
+         y="698.04199"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif"> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="548.74689"
+       y="758.04199"
+       id="text3981"><tspan
+         sodipodi:role="line"
+         id="tspan3983"
+         x="548.74689"
+         y="758.04199"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif"> </tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.863868px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 36.969542,637.00684 c 499.999998,0 499.999998,0 499.999998,0"
+       id="path3985"
+       inkscape:connector-curvature="0"
+       inkscape:label="path3985" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="560.50464"
+       y="652.92908"
+       id="text3987"
+       inkscape:label="text3987"><tspan
+         sodipodi:role="line"
+         id="tspan3989"
+         x="560.50464"
+         y="652.92908"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">Line of hover</tspan><tspan
+         sodipodi:role="line"
+         x="560.50464"
+         y="702.92908"
+         id="tspan3991"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif"> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="557.60425"
+       y="737.69965"
+       id="text3993"
+       inkscape:label="text3993"><tspan
+         sodipodi:role="line"
+         id="tspan3995"
+         x="557.60425"
+         y="737.69965"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">Line of zero v-throttle</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="561.42969"
+       y="573.21283"
+       id="text3993-8"
+       inkscape:label="text3993"><tspan
+         sodipodi:role="line"
+         id="tspan3995-0"
+         x="561.42969"
+         y="573.21283"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">Zero hover point</tspan></text>
+  </g>
+</svg>

@@ -7,11 +7,11 @@ MOD - Multipurpose Omnidirectional Drone platform
 
 # MOD as a tractor
 
-The MOD platform is a path to a new, safer, multi-purpose solution for widespread use.
+The MOD platform is a path to a new, safer, multi-purpose solution for widespread use with predictable behavior and a steep learning curve.
 
 The analog of this platform's place among other drones is a tractor among other cars.
 
-And the analog of the system of hardware and software additions for MOD is a three-point mounted implement among tractors.
+And the analog of the system of hardware and software additions for MOD is a three-point mounted implements among tractors.
 
 This does not mean that MODs, like tractors, are used primarily in agriculture, but rather that MODs, like tractors, have a much wider range of applications.
 
@@ -102,26 +102,85 @@ Now let's explain the omnicopter frame and the relationship between the frame an
 
 # Frame and shape of thrust
 
-Basic MOD frame is a Tri-frame. The Tri-frame requires 3 nodes.
+Basic MOD frame is a Tri-frame. The Tri-frame requires 3 TVN.
 
-All omnicopters based on the Tri-frame design have an asymmetrical ellipsoid-shaped thrust.
+All omnicopters based on the Tri-frame design have an asymmetric ellipsoidal thrust.
 To create a symmetrical thrust, 4 TVNs are required. This can be done with an add-on, but that is not the point.
 The point may be to add a fast-reorienting TVN to create fast reorientation capabilities for the omnicopter when the main TVNs is a slow but powerful TVNs.
 
 But this may limit the installation of other add-ons, so it can be used in certain cases.
 
-For various operations, a symmetrical thrust shape is not needed, and part of the thrust can be limited by software to form a spherical thrust with the same gradient in all directions.
+For various operations, the real symmetrical thrust shape is not needed, and part of the thrust can be limited by software to form a spherical thrust with the same gradient in all directions.
+
+See how the thrust limiters can change the controlled thrust. For simplicity, in this diagram, the actual thrust is also spherical. This diagram shows the central vertical section of the complete traction shape.
+
+![basic-control-limiters]
+
+But the software constraints for an omnicopter can be much more complex, and this flexibility allows for different constraints and control methods to be modeled.
+
+So, let's move on to:
+
+
+
+# Virtual aircraft
+
+Due to the large number of motion options, many types of aircraft can be simulated in software without making any changes to the hardware.
+
+Any aircraft flight simulation can be cancelled at any time using the emergency button, which stops all movement and starts the omnicopter in hover mode.
+
+Some constraints can be modeled natively with hardware.
+For example, Tri-Frame + Square2 TVN can be modified to simulate a 3D helicopter or gyrodyne natively.
+Swashplates are not required, as you can see in the early version of the swashplate-less Sikorsky helicopter.
+
+### Helicopter scheme
+
+#### Photo of early version of Sikorsky VS-300.
+![sikorsky-vs300-early-version]
+
+#### Schema of early version of Sikorsky VS-300.
+![scheme-sikorsky]
+
+#### Scheme of MOD's native helicopter model. TVN: Square2.
+![scheme-heli]
+
+### Gyrodyne scheme
+
+#### Photo of Eurocopter-X3.
+![Eurocopter-X3]
+
+#### Scheme of MOD's native gyrodyne model. TVN: Square2.
+![scheme-gyrodyne]
+
+
+
+# Frame
 
 Now about the Tri-frame.
 
 The Tri-frame design is a triangular folding frame with free space inside.
-All add-ons can be mounted on both sides of the triangle.
+All add-ons can be mounted on both sides of the Tri-frame.
 Long equipment must be mounted so that it passes through the frame.
 For transporting particularly large equipment, two MODs can be combined into one using special add-ons.
 
-All Tri-frame frames are folding. The large Tri-frame MOD can be placed in a ski bag.
+All Tri-frame frames are foldable. Also, the Tri-frame is the simplest and lightest omnicopter frame. A large Tri-frame MOD can be placed in a ski bag.
+
+#### An early prototype photo of a partially folded MOD helicopter model based on the Square2 TVNs demonstrates the quick folding capabilities.
+![EarlyNativeSquare2PartialFolded]
+
 
 
 ---
 *MOD - Multipurpose Omnidirectional Drone platform - public files © 2025 by Boris Podchezertsev is licensed under CC BY-NC-ND 4.0 license
 (https://creativecommons.org/licenses/by-nc-nd/4.0/)*
+
+[basic-control-limiters]: images/basic-control-limiters.svg
+
+[sikorsky-vs300-early-version]: images/sikorsky-vs300-early-version-dkNiV.jpg
+[scheme-sikorsky]: images/scheme-sikorsky.png
+[scheme-heli]: images/scheme-heli.png
+
+[Eurocopter-X3]: images/Eurocopter-X3.jpg
+[scheme-gyrodyne]: images/scheme-gyrodyne.png
+
+[EarlyNativeSquare2PartialFolded]: images/EarlyNativeSquare2PartialFolded.jpg
+
