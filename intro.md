@@ -180,5 +180,5 @@ My LinkedIn contact: https://www.linkedin.com/in/boris-podchezertsev-0144a66/
 [Eurocopter-X3]: images/Eurocopter-X3.jpg
 [scheme-gyrodyne]: images/scheme-gyrodyne.png
 
-[EarlyNativeSquare2PartialFolded]: images/EarlyNativeSquare2PartialFolded.jpg
+[EarlyNativeHeliSquare2PartialFolded]][EarlyNativeSquare2PartialFolded]: images/EarlyNativeHeliSquare2PartialFolded.jpg
 
