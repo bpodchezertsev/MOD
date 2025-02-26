@@ -1,7 +1,5 @@
-MOD - public files - Intro
-==========================
-
-MOD - Multipurpose Omnidirectional Drone platform
+MOD - Multipurpose Omnidirectional Drone platform - public files
+================================================================
 
 For "The Flying Tractor Presentation", see [ODP](FlyingTractorPresentation.odp) [PPTX](FlyingTractorPresentation.pptx) [PDF](FlyingTractorPresentation.pdf) [MD](FlyingTractorPresentation.md).
 
