@@ -7,7 +7,7 @@ MOD - Multipurpose Omnidirectional Drone platform
 
 # MOD as a tractor
 
-The MOD platform is a path to a new, safer, multi-purpose solution for widespread use with predictable behavior and a steep learning curve.
+The MOD platform is a path to a new, safer, multi-purpose solution for widespread use with predictable behavior and do not require much study.
 
 MOD platform can be compared to other drones as a tractors can be compared to a cars.
 
@@ -38,24 +38,26 @@ Of course you can use regular drones, but...*
 
 
 
-# Omnicopter vs ordinary drone
+# Omnicopter vs. ordinary drone
 
-Action and reaction
+Problem and result
 
-| Action                                                     | Ordinary drone          | Omnicopter                                           |
-|------------------------------------------------------------|-------------------------|------------------------------------------------------|
-| Operating in windy conditions                              | Can be unstable         | Still fly                                            |
-| Work in strong airflow gradients near obstacles            | Can fall                | Can change orientation but still fly                 |
-| Touch an obstacle while maintaining horizontal orientation | Actually still fly      | Still fly                                            |
-| Hit an obstacle while tilted                               | Fall in most cases      | Change orientation and still fly                     |
-| Get caught on an obstacle                                  | Fall                    | Change orientation and still fly                     |
-| Damage one of the rotors                                   | Fall in most cases      | Change orientation and still fly                     |
-| Carries a long additional load and loses balance           | Fall                    | Change orientation and still fly                     |
-| Counteracts the forces caused by the load                  | Can be unstable or fall | Do not change orientation and position and still fly |
+| Problem                                          | Ordinary drone          | Omnicopter                               |
+|--------------------------------------------------|-------------------------|------------------------------------------|
+| Operating in windy conditions                    | May be unstable         | Still maintains position and orientation |
+| Work in strong airflow gradients near obstacles  | May be unstable or fall | May change orientation but still fly     |
+| Counteracts the forces caused by implements      | May be unstable or fall | May change orientation but still fly     |
+| Hit an obstacle while tilted                     | Falls in most cases     | Changes orientation and still flies      |
+| Damage one of the rotors                         | Falls in most cases     | Changes orientation and still flies      |
+| Get caught on an obstacle                        | Falls                   | Changes orientation and still flies      |
+| Carries a long additional load and loses balance | Falls                   | Changes orientation and still flies      |
 
-As you can see, only omnicopters allow you to work within obstacles and carry long additional load.
+As you can see, only omnicopters allow you to work between obstacles and carry large implements.
 
 It's like a tractor that can work on rough terrain in all weather conditions, carrying large implements.
+
+Omnicopters are safer by design. Without cameras and collision detectors.
+With cameras and collision detectors, omnicopters can become much safer.
 
 
 *Now back to the description of omnicopters.
@@ -68,27 +70,25 @@ I call it:*
 
 # Thrust-vectoring node (TVN)
 
-A single TVN type can be composed of different types and numbers of motors, rotors or other propulsion systems.
-
-The basic MOD frame requires 3 nodes (Tri-frame).
+Each TVN type is a combination of a different number of motors and different types of rotors or other propulsion systems.Some TVN types are interchangeable, for example, a tractor may have interchangeable wheels or tracks.
 
 The main TVN types differ in their thrust vectoring limitations, such as: vector range limitation and vector reorientation speed,
 weight to thrust ratio, power to thrust ratio and mechanical complexity.
 
 Each node type can be available in different sizes and with different thrust or other variations.
 
-This is a list of TVN types:
+This is a list of TVN types (all TVN types without external refs are designed by me):
 
-| Type                                                                                                                                                                                     | Thrust-vectoring shape        | Reorientation speed                      | Blade type           | Minimal frame type | Mechanical complexity | Thrust / weight | Estimated Dimensions | Usage proposal                |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------------------------------|----------------------|--------------------|-----------------------|-----------------|----------------------|-------------------------------|
-| Hex3                                                                                                                                                                                     | Hexagon/Hexagon in projection | Medium                                   | Fixed asymmetrical*  | Tri, Long-tri      | **Low**               | Low-medium      | XS-L                 | Multipurpose                  |
-| Square2                                                                                                                                                                                  | Square in projection          | **Fast**                                 | Variable symmetrical | Long-tri, aux      | Medium                | Low-medium      | XS-XL                | Multipurpose, auxillary       |
-| DoubleJoint                                                                                                                                                                              | Spherical sector              | Slow                                     | Fixed asymmetrical*  | Tri, Duo?          | Medium+               | Low             | XS-XL                | Multipurpose                  |
-| Tilt360                                                                                                                                                                                  | Flat disc                     | Slow                                     | Fixed asymmetrical*  | Tri, aux           | High                  | **High**        | XS-XXL               | Multipurpose, toys, auxillary |
-| [Cyclorotor](https://github.com/bpodchezertsev/awesome-tech-designs/blob/main/Propulsion.md#cyclorotor)                                                                                  | Flat disc                     | **Fast**                                 | Special              | Tri                | High+                 | Medium          | XXS-L                | Multipurpose, auxillary       |
-| OmniFlapper **_(Incompatible TVN. For comparison purposes only.)_**                                                                                                                      | Ellipsoid                     | Fast                                     | Special              | Special            | Ultra                 | Low             | XXS                  | Camera, indoor, toys          |
-| TrueOmni                                                                                                                                                                                 | Sphere                        | Slow                                     | Fixed asymmetrical*  | Tri, Duo?, aux     | Ultra+                | Low             | XXS-S                | Camera, toys, auxillary       |
-| [ETH Avero Omnicopter](https://github.com/bpodchezertsev/awesome-tech-designs/blob/main/SUAV.Omnicopter.md#eth-avero-omnicopter) **_(Incompatible TVN. For comparison purposes only.)_** | Spherical sector              | Prototype is very slow but can be medium | Impeller + T-V Pipe  | Tri                | Medium                | Very low        | XS                   | Multipurpose, indoor, toys    |
+| Type                                                                                                                                                                                          | Reorientation speed                      | Mechanical complexity | Thrust / weight | Estimated Dimensions | Usage proposal                |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-----------------------|-----------------|----------------------|-------------------------------|
+| Hex                                                                                                                                                                                           | Medium                                   | **Low**               | Low-medium      | XS-L                 | Multipurpose                  |
+| Square                                                                                                                                                                                        | **Fast**                                 | Medium                | Low-medium      | XS-XL                | Multipurpose, auxillary       |
+| DoubleJoint                                                                                                                                                                                   | Slow                                     | Medium+               | Low             | XS-XL                | Multipurpose                  |
+| FullTilt                                                                                                                                                                                      | Slow                                     | High                  | **High**        | XS-XXL               | Multipurpose, toys, auxillary |
+| Ref: [Cyclorotor](https://github.com/bpodchezertsev/awesome-tech-designs/blob/main/Propulsion.md#cyclorotor)                                                                                  | **Fast**                                 | High+                 | Medium          | XXS-L                | Multipurpose, auxillary       |
+| TrueOmni                                                                                                                                                                                      | Slow                                     | Ultra+                | Low             | XXS-S                | Camera, toys, auxillary       |
+| OmniFlapper **_(Incompatible TVN. For comparison purposes only.)_**                                                                                                                           | Fast                                     | Ultra                 | Low             | XXS                  | Camera, indoor, toys          |
+| Ref: [ETH Avero Omnicopter](https://github.com/bpodchezertsev/awesome-tech-designs/blob/main/SUAV.Omnicopter.md#eth-avero-omnicopter) **_(Incompatible TVN. For comparison purposes only.)_** | Prototype is very slow but can be medium | Medium                | Very low        | XS                   | Multipurpose, indoor, toys    |
 
 Many of these TVNs are interchangeable for the same size frame, so in the future we will be able to upgrade not only to the same type of TVN, but also change its type.
 
@@ -99,10 +99,8 @@ Many of these TVNs are interchangeable for the same size frame, so in the future
 
 # Frame and shape of thrust
 
-Basic MOD frame is a Tri-frame. The Tri-frame requires 3 TVN.
-
-All omnicopters based on the Tri-frame design have an asymmetric ellipsoidal thrust.
-To create a symmetrical thrust, 4 TVNs are required. This can be done with an add-on, but that is not the point.
+All omnicopters using the common base frame design have an asymmetric ellipsoidal thrust.
+To create a symmetrical thrust, more TVN are required. This can be done with an add-on, but that is not the point.
 The point may be to add a fast-reorienting TVN to create fast reorientation capabilities for the omnicopter when the main TVNs is a slow but powerful TVNs.
 
 But this may limit the installation of other add-ons, so it can be used in certain cases.
@@ -125,7 +123,7 @@ Due to the large number of motion options, many types of aircraft can be simulat
 Any aircraft flight simulation can be cancelled at any time using the emergency button, which stops all movement and starts the omnicopter in hover mode.
 
 Some constraints can be modeled natively with hardware.
-For example, Tri-Frame + Square2 TVN can be modified to simulate a 3D helicopter or gyrodyne natively.
+For example, common base frame + Square TVN can be modified to simulate a 3D helicopter or gyrodyne natively.
 Swashplates are not required, as you can see in the early version of the swashplate-less Sikorsky helicopter.
 
 ### Helicopter scheme
@@ -136,7 +134,7 @@ Swashplates are not required, as you can see in the early version of the swashpl
 #### Schema of early version of Sikorsky VS-300.
 ![scheme-sikorsky]
 
-#### Scheme of MOD's native helicopter model. TVN: Square2.
+#### Scheme of MOD's native helicopter model. TVN: Square.
 ![scheme-heli]
 
 ### Gyrodyne scheme
@@ -144,28 +142,31 @@ Swashplates are not required, as you can see in the early version of the swashpl
 #### Photo of Eurocopter-X3.
 ![Eurocopter-X3]
 
-#### Scheme of MOD's native gyrodyne model. TVN: Square2.
+#### Scheme of MOD's native gyrodyne model. TVN: Square.
 ![scheme-gyrodyne]
 
 
-*Now about the Tri-frame.*
+*Now about the common base frame.*
 
 
 
 # Frame
 
-The Tri-frame design is a triangular folding frame with free space inside.
-All add-ons can be mounted on both sides of the Tri-frame.
-Long equipment must be mounted so that it passes through the frame.
-For transporting particularly large equipment, two MODs can be combined into one using special add-ons.
+The family of base frames may vary in size, but have common properties:
+- very simple and lightweight
+- foldable without losing in weight or strength at the joints
+- allow connection to other frames
+- allow mounting of implements on either side of the frame and through the frame
 
-All Tri-frame frames are foldable. Also, the Tri-frame is the simplest and lightest omnicopter frame. A large Tri-frame MOD can be placed in a ski bag.
+About the latter: mounting implements through the frame is a key feature for balancing large implements.
 
-#### An early prototype photo of a partially folded MOD helicopter model based on the Square2 TVNs demonstrates the quick folding capabilities.
-![EarlyNativeSquare2PartialFolded]
+Large MOD prototype can be folded to place in a ski bag.
 
+#### Photo of an early prototype of a partially folded MOD-based helicopter-like model demonstrating the folding capabilities.
 
-My LinkedIn contact: https://www.linkedin.com/in/boris-podchezertsev-0144a66/
+![EarlyNativeHeliSquarePartialFolded]
+
+Subscribe to my LinkedIn contact for updates: https://www.linkedin.com/in/boris-podchezertsev-0144a66/
 
 ---
 *MOD - Multipurpose Omnidirectional Drone platform - public files © 2025 by Boris Podchezertsev is licensed under CC BY-NC-ND 4.0 license
@@ -180,5 +181,5 @@ My LinkedIn contact: https://www.linkedin.com/in/boris-podchezertsev-0144a66/
 [Eurocopter-X3]: images/Eurocopter-X3.jpg
 [scheme-gyrodyne]: images/scheme-gyrodyne.png
 
-[EarlyNativeHeliSquare2PartialFolded]][EarlyNativeSquare2PartialFolded]: images/EarlyNativeHeliSquare2PartialFolded.jpg
+[EarlyNativeHeliSquarePartialFolded]: images/EarlyNativeHeliSquarePartialFolded.jpg
 

@@ -11,15 +11,13 @@ For an overview of existing omnicopters, see <https://github.com/bpodchezertsev/
 
 For cutting-edge projects with interesting designs that interest me, see <https://github.com/bpodchezertsev/awesome-tech-designs>
 
-For the article "How AI Understands Omnicopters", see <https://github.com/bpodchezertsev/articles/blob/main/How-AI-Understand-Omnicopters/How-AI-Understand-Omnicopters.md>
+For the short article "How AI Understands Omnicopters", see <https://github.com/bpodchezertsev/articles/blob/main/How-AI-Understand-Omnicopters/How-AI-Understand-Omnicopters.md>
 
 For my resume, see <https://github.com/bpodchezertsev/doc-resume/>
 
-Not all MOD content is currently uploaded to github. Subscribe for updates.
+Not all MOD content is currently uploaded to github. Some parts are for personal use only.
 
-Tell me your opinion.
-
-My LinkedIn contact: https://www.linkedin.com/in/boris-podchezertsev-0144a66/
+Subscribe to my LinkedIn profile for updates: https://www.linkedin.com/in/boris-podchezertsev-0144a66/
 
 ---
 *MOD - Multipurpose Omnidirectional Drone platform - public files © 2025 by Boris Podchezertsev is licensed under CC BY-NC-ND 4.0 license
