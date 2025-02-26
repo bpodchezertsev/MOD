@@ -7,8 +7,6 @@ For "The Flying Tractor Presentation", see [ODP](FlyingTractorPresentation.odp) 
 
 For an introduction to MOD, see [intro.md](intro.md).
 
-For frequently asked questions about MOD, see [FAQ.md](FAQ.md).
-
 For an overview of existing omnicopters, see <https://github.com/bpodchezertsev/awesome-tech-designs/blob/main/SUAV.Omnicopter.md>
 
 For cutting-edge projects with interesting designs that interest me, see <https://github.com/bpodchezertsev/awesome-tech-designs>
