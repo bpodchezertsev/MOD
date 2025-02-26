@@ -42,7 +42,7 @@ Helicopter-tractor
 
 But we still don't have a tractor drone. That's because a tractor is not just a single machine, but...
 
-# The capabilities of a tractor are determined by its attachments and implements.
+# The capabilities of a tractor are determined by its attachments and implements
 
 ![TractorImplements]
 
@@ -64,7 +64,7 @@ An omnicopter can change orientation without changing its position.
 
 # Omnicopter vs. regular drone
 
-| Action                                           | Ordinary drone          | Omnicopter                               |
+| Problem                                          | Ordinary drone          | Omnicopter                               |
 |--------------------------------------------------|-------------------------|------------------------------------------|
 | Operating in windy conditions                    | May be unstable         | Still maintains position and orientation |
 | Work in strong airflow gradients near obstacles  | May be unstable or fall | May change orientation but still fly     |
@@ -102,9 +102,9 @@ About the latter: mounting implements through the frame is a key feature for bal
 
 ## Thrust-vectoring node (TVN)
 
-Each TVN type is a combination of a different number of motors and different types of rotors or other propulsion systems.Some TVN types are interchangeable, for example, a tractor may have interchangeable wheels or tracks.
+Each TVN type is a combination of a different number of motors and different types of rotors or other propulsion systems.  Some types of TVN are interchangeable, just like a tractor, you can change the types of wheels or even replace them with tracks.
 
-This is a list of TVN types (all TVN types without external refs are designed by me):
+Look how many different ЕМТ types there can be (what is not marked as "ref" is developed by me).
 
 | Type                                                                                                                                                                                          | Reorientation speed                      | Mechanical complexity | Thrust / weight | Estimated Dimensions | Usage proposal                |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-----------------------|-----------------|----------------------|-------------------------------|

@@ -77,7 +77,7 @@ weight to thrust ratio, power to thrust ratio and mechanical complexity.
 
 Each node type can be available in different sizes and with different thrust or other variations.
 
-This is a list of TVN types (all TVN types without external refs are designed by me):
+Look how many different ЕМТ types there can be (what is not marked as "ref" is developed by me).
 
 | Type                                                                                                                                                                                          | Reorientation speed                      | Mechanical complexity | Thrust / weight | Estimated Dimensions | Usage proposal                |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-----------------------|-----------------|----------------------|-------------------------------|
