@@ -3,7 +3,7 @@ MOD - public files - Intro
 
 MOD - Multipurpose Omnidirectional Drone platform
 
-For an "Flying Tractor Presentation", see [ODP](FlyingTractorPresentation.odp) [PPTX](FlyingTractorPresentation.pptx) [PDF](FlyingTractorPresentation.pdf) [MD](FlyingTractorPresentation.md).
+For "The Flying Tractor Presentation", see [ODP](FlyingTractorPresentation.odp) [PPTX](FlyingTractorPresentation.pptx) [PDF](FlyingTractorPresentation.pdf) [MD](FlyingTractorPresentation.md).
 
 For an introduction to MOD, see [intro.md](intro.md).
 
@@ -15,7 +15,7 @@ For cutting-edge projects with interesting designs that interest me, see <https:
 
 For the short article "How AI Understands Omnicopters", see <https://github.com/bpodchezertsev/articles/blob/main/How-AI-Understand-Omnicopters/How-AI-Understand-Omnicopters.md>
 
-For my resume, see <https://github.com/bpodchezertsev/doc-resume/>
+For my resume, see <https://github.com/bpodchezertsev/doc-resume/blob/master/resume-bpodchezertsev.en.md>
 
 Not all MOD content is currently uploaded to github. Some parts are for personal use only.
 
