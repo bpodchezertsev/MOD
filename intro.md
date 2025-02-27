@@ -166,7 +166,7 @@ Large MOD prototype can be folded to place in a ski bag.
 
 ![EarlyNativeHeliSquarePartialFolded]
 
-Subscribe to my LinkedIn contact for updates: https://www.linkedin.com/in/boris-podchezertsev-0144a66/
+Subscribe to my LinkedIn contact for updates: https://www.linkedin.com/in/boris-podchezertsev/
 
 ---
 *MOD - Multipurpose Omnidirectional Drone platform - public files © 2025 by Boris Podchezertsev is licensed under CC BY-NC-ND 4.0 license

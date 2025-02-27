@@ -15,7 +15,7 @@ For my resume, see <https://github.com/bpodchezertsev/doc-resume/blob/master/res
 
 Not all MOD content is currently uploaded to github. Some parts are for personal use only.
 
-Subscribe to my LinkedIn profile for updates: https://www.linkedin.com/in/boris-podchezertsev-0144a66/
+Subscribe to my LinkedIn profile for updates: https://www.linkedin.com/in/boris-podchezertsev/
 
 ---
 *MOD - Multipurpose Omnidirectional Drone platform - public files © 2025 by Boris Podchezertsev is licensed under CC BY-NC-ND 4.0 license
