@@ -104,7 +104,7 @@ About the latter: mounting implements through the frame is a key feature for bal
 
 Each TVN type is a combination of a different number of motors and different types of rotors or other propulsion systems.  Some types of TVN are interchangeable, just like a tractor, you can change the types of wheels or even replace them with tracks.
 
-Look how many different ЕМТ types there can be (what is not marked as "ref" is developed by me).
+Look how many different TVN types there can be (what is not marked as "ref" is developed by me).
 
 | Type                                                                                                                                                                                          | Reorientation speed                      | Mechanical complexity | Thrust / weight | Estimated Dimensions | Usage proposal                |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-----------------------|-----------------|----------------------|-------------------------------|
